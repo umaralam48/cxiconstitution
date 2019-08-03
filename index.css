@@ -1,0 +1,39 @@
+body {
+  background: #fffbd5; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #b20a2c,
+    #fffbd5
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #b20a2c,
+    #fffbd5
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  /* 
+ background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+ background: linear-gradient(to right, #24243e, #302b63, #0f0c29);
+ background: #0f0c29;  
+*/
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.pages {
+  box-sizing: border-box;
+  margin: 22px auto;
+  padding: 10%;
+  background: white;
+  display: inline-block;
+  width: 70%;
+  border-radius: 3px;
+  text-align: left;
+}
+
+h2:not(:first-of-type) {
+  text-align: center;
+}
+@media only screen and (max-width: 600px) {
+  .pages {
+    width: 90%;
+  }
+}
